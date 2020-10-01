@@ -6,10 +6,14 @@ public class AulaControleRemoto {
 
     public static void main(String[] args) {
         ControleRemoto c = new ControleRemoto();
-        c.ligar();
+        c.desligar();
         c.abrirMenu();
-        c.pause();
+        c.fecharMenu();
+         c.play();
         c.maisVolume();
+       
+        
+    
     }
     
 }
