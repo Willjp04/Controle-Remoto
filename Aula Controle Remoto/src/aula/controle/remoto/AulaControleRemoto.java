@@ -8,6 +8,8 @@ public class AulaControleRemoto {
         ControleRemoto c = new ControleRemoto();
         c.ligar();
         c.abrirMenu();
+        c.pause();
+        c.maisVolume();
     }
     
 }
