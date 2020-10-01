@@ -22,22 +22,22 @@ public class ControleRemoto implements Controlador {
         tocando = false;
     }
     //MÉTODOS ESPECIAIS
-    public int getVolume(){
+    private int getVolume(){
         return this.volume;
     }
-    public void setVolume(int volume){
+    private void setVolume(int volume){
         this.volume = volume;
     }
-    public boolean getLigado(){
+    private boolean getLigado(){
         return this.ligado;
     }
-    public void setLigado(boolean ligado){
+    private void setLigado(boolean ligado){
         this.ligado = true;
     }
-    public boolean getTocando(){
+    private boolean getTocando(){
         return this.tocando;
     }
-    public void setTocando(boolean tocando){
+    private void setTocando(boolean tocando){
         this.tocando = false;
     }
     //MÉTODOS ABSTRATOS
